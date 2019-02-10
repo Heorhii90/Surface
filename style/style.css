@@ -1,0 +1,818 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  zoom: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.background_image-header {
+  background: url("../static/header_image.png") no-repeat;
+  color: #ffffff;
+}
+
+.logo_header, .header_text {
+  font-size: 22px;
+  padding: 3% 0 10% 0;
+  position: relative;
+  bottom: 33px;
+  left: -28px;
+}
+
+.logo_header_icon {
+  background: url(../static/logo.png) no-repeat;
+  background-size: 101%;
+  width: 70px;
+  height: 43px;
+  display: inline-block;
+  background-position: 24px -1px;
+}
+
+.header_text {
+  font-size: 9px;
+  position: relative;
+  top: 5px;
+  left: 45px;
+}
+
+.app_store {
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #5938AB;
+  margin-right: 16px;
+  margin-left: 16px;
+  font-size: 10px;
+}
+
+.app_store span {
+  margin-left: 37px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.app_store a {
+  position: relative;
+  left: 19px;
+}
+
+.logo_google {
+  background: url(../static/IconGoogle.png) no-repeat;
+  width: 35px;
+  height: 25px;
+  display: inline-block;
+  background-size: 50%;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.logo_app_store {
+  background: url(../static/IconApple.png) no-repeat;
+  width: 35px;
+  height: 25px;
+  display: inline-block;
+  background-size: 50%;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.hr {
+  border-top: 5px solid #5C37AD;
+  width: 279px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  right: 197px;
+  top: 28px;
+}
+
+.hr_footbal {
+  border-top: 5px solid #906BE7;
+  width: 650px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  right: 315px;
+  top: 270px;
+}
+
+.hr_basketbol {
+  border-top: 5px solid #906BE7;
+  width: 303px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  right: -78px;
+  top: 393px;
+}
+
+.hr_basketbol_1 {
+  border-top: 5px solid #906BE7;
+  width: 285px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  left: 403px;
+  top: 124px;
+}
+
+.hr_footer {
+  border-top: 5px solid #906BE7;
+  width: 150px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  right: 546px;
+  top: 54px;
+}
+
+.hr_footer_1 {
+  border-top: 5px solid #906BE7;
+  width: 300px;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-51.5deg);
+  position: relative;
+  right: 255px;
+  top: 54px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0.6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #e7e7e7;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.601rem;
+  font-weight: 700;
+  color: rgba(193, 193, 193, 0.4);
+}
+
+h3 span {
+  font-size: 0.801rem;
+  font-weight: 700;
+}
+
+.line {
+  border-bottom: 4px solid #5e42b0;
+  position: relative;
+  bottom: 8px;
+}
+
+.line_growth {
+  border-bottom: 4px solid #ffffff;
+  position: relative;
+  bottom: 8px;
+  color: #9173e6;
+}
+
+.line_p {
+  border-bottom: 4px solid #5837AA;
+  width: 15px;
+  position: relative;
+  top: 95px;
+}
+
+.position_line {
+  position: relative;
+  top: 17%;
+}
+
+.position_h {
+  position: relative;
+  top: 57px;
+  left: 26px;
+}
+
+.position_h2 {
+  position: relative;
+  top: 32px;
+  right: 87px;
+}
+
+.position_app {
+  padding: 9% 0;
+  position: relative;
+}
+
+.position_nav {
+  position: relative;
+  top: 18px;
+  right: 132px;
+}
+
+.nav-my {
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 0.623rem;
+  color: #9071ea;
+}
+
+.background_growh {
+  background-color: #5938AB;
+  padding: 4% 0;
+}
+
+.background_growh p {
+  color: #ffffff;
+}
+
+.background_collaboration, .background_collaboration_2 {
+  background-color: #F6F5FB;
+  padding: 2.5% 0;
+}
+
+.athlets {
+  padding: 5% 0;
+}
+
+.position_athlets {
+  position: relative;
+  left: 22%;
+}
+
+.position_athlets P {
+  font-size: 0.889rem;
+}
+
+.background_growth_2 {
+  background-color: #06062D;
+  padding: 4% 0;
+}
+
+.background_growth_2 p {
+  color: #ffffff;
+}
+
+.footbal_img {
+  position: absolute;
+  width: 37%;
+  left: 12%;
+}
+
+.player_img {
+  position: absolute;
+  width: 50%;
+  bottom: 20%;
+  right: 10%;
+}
+
+.player {
+  position: relative;
+  left: 8%;
+}
+
+.player_position {
+  position: relative;
+}
+
+.men_1 {
+  width: 100%;
+}
+
+.position_active {
+  margin: auto;
+  left: 7%;
+}
+
+.position_active P {
+  position: relative;
+  top: 56px;
+}
+
+.position_contact {
+  margin: auto;
+  left: 10%;
+}
+
+.position_contact p {
+  position: relative;
+  top: 50px;
+}
+
+.position_work {
+  margin: auto;
+  left: 7%;
+}
+
+.position_work P {
+  position: relative;
+  top: 50px;
+}
+
+.position {
+  position: relative;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  background-color: #5938AB;
+  position: absolute;
+  top: 29%;
+  left: 45.5%;
+  z-index: 2;
+  text-align: center;
+}
+
+.square span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #f5f6f7;
+  font-size: 1.067rem;
+  font-weight: 700;
+  border-bottom: 5px solid #8B76C3;
+}
+
+.background_footer {
+  background-color: rgba(10, 14, 52, 0.6);
+  padding: 2.5% 0;
+}
+
+.background_footer_img {
+  background: url(../static/footer.png) no-repeat;
+  color: #ffffff;
+}
+
+.position_download {
+  position: relative;
+  left: 26%;
+  padding-top: 10%;
+}
+
+.position_download h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4.002rem;
+  position: relative;
+}
+
+.position_download p {
+  color: #a496cb;
+  font-size: 1.601rem;
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
+}
+
+.img_footer {
+  background: url(../static/icon_footer.png) no-repeat;
+  background-size: 100%;
+  width: 105px;
+  position: relative;
+  left: 26%;
+  top: 145px;
+}
+
+.fb {
+  background: url(../static/fb.png) no-repeat;
+  width: 11px;
+  height: 20px;
+  background-size: 100%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.fb_p a:hover {
+  opacity: 0.4;
+}
+
+.twiter {
+  background: url(../static/twitter.png) no-repeat;
+  width: 20px;
+  height: 16px;
+  background-size: 100%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.instagram {
+  background: url(../static/instagram.png) no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.img_logo {
+  background: url(../static/logo.png) no-repeat;
+  background-size: 101%;
+  width: 70px;
+  height: 43px;
+  display: inline-block;
+  background-position: 24px -1px;
+}
+
+.contact {
+  font-size: 0.889rem;
+  position: relative;
+  left: 10%;
+}
+
+.fb_p {
+  position: relative;
+  left: 4%;
+}
+
+.logo_footer {
+  background: url(../static/logo.png) no-repeat;
+  width: 55px;
+  height: 22px;
+  background-size: 19%;
+  display: inline-block;
+  background-position: -23px;
+  position: relative;
+  right: 35px;
+}
+
+.my_carousel {
+  display: none;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1209px) {
+  body {
+    zoom: 85%;
+  }
+  .hr_footer {
+    right: 480px;
+    top: 66px;
+  }
+  .hr_footer_1 {
+    right: 188px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .header_text {
+    top: 2px;
+    left: 5px;
+  }
+  .logo_header {
+    left: -52px;
+  }
+  .position_h2 {
+    right: 60px;
+  }
+  .hr {
+    width: 340px;
+    right: -22px;
+    top: 35px;
+  }
+  .nav-my {
+    padding: 8% 0 2% 0;
+    margin-right: 11%;
+    position: relative;
+    left: 172px;
+    font-size: 13px;
+  }
+  h1 {
+    position: relative;
+    bottom: 38px;
+  }
+  .footbal_img {
+    left: 1%;
+    top: 9%;
+  }
+  .position_athlets P {
+    padding-right: 27%;
+  }
+  .player_img {
+    bottom: 35%;
+    right: 2%;
+  }
+  .hr_basketbol {
+    right: -115px;
+    top: 288px;
+  }
+  .hr_basketbol_1 {
+    left: 289px;
+    top: 126px;
+  }
+  .square {
+    width: 80px;
+    height: 80px;
+    top: 62%;
+    left: 7.5%;
+  }
+  .position_contact {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .position_active {
+    top: 25px;
+  }
+  .position_active P {
+    top: 0;
+    padding-bottom: 50px;
+  }
+  .line_p {
+    top: -45px;
+    margin-bottom: 25px;
+  }
+  .square_2 {
+    top: 65%;
+  }
+  .position_contact {
+    left: 8.6%;
+    top: 25px;
+  }
+  .position_contact p {
+    top: 0;
+    padding-bottom: 50px;
+  }
+  .position_work {
+    left: 7%;
+    top: 35px;
+  }
+  .position_work P {
+    top: 0;
+    padding-bottom: 50px;
+  }
+  .position_download {
+    left: 0;
+    padding-top: 21%;
+  }
+  .img_footer {
+    background-size: 90%;
+    left: 44%;
+    top: 56px;
+  }
+  .hr_footer_1 {
+    right: -30px;
+  }
+  .hr_footer {
+    right: 262px;
+    top: 70px;
+  }
+  .position_download p {
+    left: 20px;
+  }
+  .logo_footer, .contact {
+    opacity: 0;
+  }
+  .fb_p {
+    left: 9%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  body {
+    zoom: 50%;
+    max-width: 640px;
+  }
+  .background_image-header {
+    background: url(../static/header_image320.png) no-repeat;
+    background-size: 100%;
+  }
+  .header_text {
+    display: none;
+  }
+  .logo_header {
+    text-align: center;
+    font-size: 30px;
+    left: -55px;
+  }
+  .logo_header_icon {
+    background-size: 126%;
+    width: 84px;
+    height: 87px;
+    background-position: 20px 21px;
+  }
+  .position_h {
+    top: 120px;
+    left: 55px;
+    margin-top: 50px;
+  }
+  .position_h2 {
+    top: 115px;
+    right: 77px;
+  }
+  h1 {
+    font-size: 3.3rem;
+    text-align: left;
+  }
+  .hr {
+    width: 335px;
+    right: 30px;
+    top: 141px;
+  }
+  .app_store {
+    width: 41%;
+  }
+  .position_nav {
+    right: 0;
+    top: 510px;
+  }
+  .nav-my {
+    font-size: 25px;
+    margin: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .position_app {
+    top: 50px;
+    padding: 37% 0;
+  }
+  .position_athlets h3, .position_athlets p, .background_collaboration, .background_growh,
+  .background_collaboration_2, .background_growth_2, .player h3, .player p,
+  .logo_footer, .contact {
+    display: none;
+  }
+  .player_position {
+    text-align: center;
+    padding: 0;
+  }
+  .footbal_img {
+    position: relative;
+    left: 15px;
+    width: 425px;
+    top: 150px;
+  }
+  .athlets .position_athlets h2 {
+    bottom: 600px;
+    position: relative;
+    right: 200px;
+    font-size: 100px;
+  }
+  .my_carousel {
+    display: inline-block;
+    padding: 60px;
+    background-color: #F6F5FA;
+    height: 600px;
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+  }
+  h3 {
+    font-size: 3rem;
+    margin-top: 90px;
+  }
+  h3 span {
+    font-size: 2rem;
+    color: #000000;
+  }
+  .my_carousel p {
+    font-size: 30px;
+    text-align: left;
+  }
+  .line_growth {
+    color: #000000;
+    border-bottom: 4px solid #5837AA;
+  }
+  .my_indicators li {
+    background-color: #562CAC;
+    border: 1px solid transparent;
+    border-radius: 45%;
+    width: 20px;
+    height: 20px;
+    margin: 0 3%;
+  }
+  .hr_footbal {
+    right: 3px;
+    top: 400px;
+    width: 580px;
+  }
+  .player_position .player h2 {
+    bottom: 570px;
+    position: relative;
+    right: 85px;
+    font-size: 100px;
+  }
+  .player_img {
+    position: relative;
+    width: 600px;
+    bottom: 0;
+    right: 0;
+    top: 90px;
+  }
+  .hr_basketbol {
+    right: 89px;
+    top: 431px;
+  }
+  .hr_basketbol_1 {
+    left: 188px;
+    top: 197px;
+  }
+  .men_1 {
+    bottom: 150px;
+    position: relative;
+  }
+  .square {
+    top: 35%;
+    left: 5%;
+  }
+  .position_active {
+    bottom: 100px;
+  }
+  .position_active P {
+    top: 5px;
+  }
+  .line_p {
+    top: 5px;
+  }
+  .men_2 {
+    bottom: 215px;
+  }
+  .position_contact {
+    top: 530px;
+  }
+  .men_3 {
+    top: 120px;
+  }
+  .square_2 {
+    top: 377px;
+  }
+  .position_contact p {
+    top: 5px;
+  }
+  .square_3 {
+    top: 515px;
+  }
+  .position_work {
+    top: 175px;
+  }
+  .position_work p {
+    padding-bottom: 280px;
+    top: 0;
+  }
+  .line_p_bottom {
+    top: -265px;
+  }
+  .background_footer_img {
+    background: url(../static/footer320.png) no-repeat;
+    background-size: 100%;
+  }
+  .fb_p {
+    left: 0;
+    text-align: center;
+    padding: 3% 0;
+  }
+  .fb {
+    margin-right: 7%;
+    width: 22px;
+    height: 40px;
+  }
+  .instagram {
+    margin-left: 5%;
+    width: 36px;
+    height: 36px;
+  }
+  .twiter {
+    width: 40px;
+    height: 32px;
+  }
+  .position_download {
+    left: -70px;
+    top: 225px;
+  }
+  .position_download h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .position_download p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .img_footer {
+    width: 130px;
+    left: 250px;
+  }
+  .hr_footer_1 {
+    width: 240px;
+    right: -54px;
+  }
+  .hr_footer {
+    right: 159px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
